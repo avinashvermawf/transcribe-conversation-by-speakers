@@ -42,10 +42,10 @@ pyenv install 3.9.19
 mkdir -p ~/whisperx-project
 cd ~/whisperx-project
 
-\# Create a dedicated env
+# Create a dedicated env
 pyenv virtualenv 3.9.19 whisperx-env
 
-\# Make it auto-activate in this folder
+# Make it auto-activate in this folder
 pyenv local whisperx-env
 
 Tip: Because you ran pyenv local whisperx-env, just cd-ing into ~/whisperx-project later will auto-activate the env. You don’t need to run pyenv activate every time.
@@ -97,7 +97,7 @@ What this script does (as per your working setup):
 7. Running:
 ```c
 cd ~/whisperx-project
-\# pyenv auto-activates whisperx-env because of `pyenv local` earlier
+# pyenv auto-activates whisperx-env because of `pyenv local` earlier
 
 python batch_whisperx.py
 
