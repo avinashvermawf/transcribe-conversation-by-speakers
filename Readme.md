@@ -76,7 +76,7 @@ or
 read -s HF_TOKEN
 python -c "from huggingface_hub import HfApi; import os; print(HfApi(token=os.environ['HF_TOKEN']).whoami())"
 ```
-Click "Access repository" and "Agree and access" for below urls
+Click "Access repository" and "Agree and access" for below urls  
 https://hf.co/pyannote/speaker-diarization-3.1  
 https://huggingface.co/pyannote/speaker-diarization-3.1s
 
